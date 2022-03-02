@@ -953,6 +953,23 @@
                 "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
               }
             ]
+          },
+          {
+            "name": "Number cities 3",
+            "expression": [
+              "",
+              "    DISTINCTCOUNT(",
+              "        'Sales Orders by Date'[City]",
+              "    )"
+            ],
+            "formatString": "0",
+            "lineageTag": "53b4aea8-835d-40a2-92e2-48d4eab1952f",
+            "annotations": [
+              {
+                "name": "Format",
+                "value": "<Format Format=\"NumberWhole\" Accuracy=\"0\" />"
+              }
+            ]
           }
         ],
         "annotations": [
